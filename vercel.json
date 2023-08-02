@@ -1,0 +1,14 @@
+{
+    "version": 2,
+    "routes": [
+      {
+        "src": "/api/:splat",  
+        "methods": ["GET", "POST", "PUT", "DELETE"],  
+        "dest": "https://api-museo-retrotech.onrender.com/api/:splat",
+        "headers": {
+          "Access-Control-Allow-Origin": "https://museo-web-beige.vercel.app"
+        }
+      }
+    ]
+}
+
